@@ -1,7 +1,6 @@
 #root {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
   text-align: center;
 }
 
@@ -20,6 +19,15 @@
 .title, .settings {
   background-color: rgba(0, 0, 0, 0.8);
   padding: 30px;
+}
+.settings form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5px;
+}
+.settings label {
+  width: 50px;
+  margin-bottom: 5px;
 }
 .clock {
   display: flex;
