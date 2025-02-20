@@ -28,7 +28,7 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
-  background-image: url('bckg3.png');
+  background-image: url('/bckg3.png');
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
